@@ -15,7 +15,7 @@ Projeto em desenvolvimento para o curso de **HTML5 e CSS3** do [Gustavo Guanabar
 
 ## 🌐 Acesse o site
 
-🔗 [Clique aqui para visitar o projeto hospedado no GitHub Pages](https://leonardofdev.github.io/projeto-login/)
+🔗 [Clique aqui para visitar o projeto hospedado no GitHub Pages](https://leonardoftdev.github.io/projeto-login/)
 
 —
 
