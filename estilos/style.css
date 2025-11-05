@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*
+
+    Paleta de Cores
+
+    Azul #5A90BF
+    Azul Médio #5F94D9
+    Azul Escuro #385773
+    Amarelo #F2B366
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:wght@100..900&display=swap');
+
+
+body {
+    font-family: 'Elms Sans', sans-serif;
+}
