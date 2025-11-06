@@ -14,6 +14,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Elms+Sans:wght@100..900&display=swap');
 
 
-body {
+* {
     font-family: 'Elms Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body, html {
+    background-color: #385773;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    transition: color .3s;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00000073;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
+}
+
+#login #imagem {
+    display: block;
+    background: #385773 url(../imagens/foto1.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 200px;
+}
+
+#login #formulario {
+    display: block;
+    padding: 10px;
 }
