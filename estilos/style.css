@@ -37,15 +37,15 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 510px;
+    height: 520px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000073;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -92,13 +92,38 @@ form input[type=submit]:hover {
 }
 
 .campo {
+    background-color: #385773;
     width: 100%;
-    height: 30px;
+    height: 35px;
     margin: 5px 0px;
+    border-radius: 8px;
+    border: 2px solid #385773;
 }
 
 .campo label {
     display: none;
+}
+
+.campo i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-5px);
+}
+
+.campo input {
+    font-size: 1em;
+    height: 100%;
+    border: none;
+    width: calc(100% - 47px);
+    background-color: #f1c38a;
+    border-radius: 8px;
+    transform: translateY(-16px);
+}
+
+.campo input:focus-within {
+    background-color: white;
 }
 
 .esqueci-a-senha {

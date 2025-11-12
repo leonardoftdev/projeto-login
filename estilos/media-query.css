@@ -8,18 +8,24 @@
 
     #login {
         width: 90vw;
+        height: 400px;
     }
 
     #login #imagem {
         float: left;
         width: 40%;
         height: 100%;
-        background-position: top center;
+        background-position: bottom center;
     }
 
     #login #formulario {
         float: right;
         width: 60%;
+        padding: 50px 10px;
+    }
+
+    #login #formulario p {
+        padding-bottom: 10px;
     }
 }
 
@@ -42,6 +48,7 @@
     #login #formulario {
         float: left;
         width: 60%;
+        padding: 100px 10px;
     }
 
     #formulario h1 {
