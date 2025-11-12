@@ -41,7 +41,7 @@ main {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000073;
     transition: width .3s, height .3s;
@@ -68,4 +68,66 @@ main {
 
 #formulario p {
     font-size: 0.8em;
+}
+
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #F2B366;
+    color: #385773;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #385773;
+    color: white;
+}
+
+.campo {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+}
+
+.campo label {
+    display: none;
+}
+
+.esqueci-a-senha {
+    text-decoration: none;
+    color: #385773;
+    border: 1px solid #385773;
+    border-radius: 10px;
+}
+
+.esqueci-a-senha:hover {
+    transition: 0.4s;
+    background-color: #385773;
+    color: white;
+    border: 1px solid #385773;
+}
+
+a.esqueci-a-senha {
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+}
+
+a.esqueci-a-senha i {
+    font-size: 1.3em;
+}
+
+a.esqueci-a-senha:hover {
+    text-decoration: underline;
 }
